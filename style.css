@@ -152,3 +152,10 @@ span.wrong {
     border-radius: 8px;
     margin-top: 6px;
 }
+
+footer p {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 12px;
+    margin-top: 72px;
+}
