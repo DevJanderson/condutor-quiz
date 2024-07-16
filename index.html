@@ -7,7 +7,6 @@
     <title>Condutor-QUIZ</title>
   </head>
   <body>
-   
     <main>
       <header>
         <h1>Curso: Trans. de Veiculos de Emergência</h1>
@@ -18,7 +17,7 @@
 
       <div id="quiz"></div>
 
-      <template>
+      <!-- <template>
         <div class="quiz-item">
           <h3>Pergunta</h3>
           <dl>
@@ -27,6 +26,21 @@
               <span>Resposta A</span>
             </dt>
           </dl>
+        </div>
+      </template> -->
+
+      <template>
+        <div class="quiz-item">
+          <h3>Pergunta</h3>
+          <div class="question">
+            <dl>
+              <dt>
+                <input type="radio" name="item" value="0" />
+                <span>Resposta A</span>
+              </dt>
+            </dl>
+            <img src="" alt="Imagem da placa de trânsito" class="placa-img" />
+          </div>
         </div>
       </template>
 
@@ -39,7 +53,7 @@
         <p>&copy; 2024 - CondutorAm | Desenvolvido por Janderson Lira</p>
       </footer>
     </main>
-   
+
     <script src="script.js"></script>
   </body>
 </html>

@@ -8,27 +8,19 @@ const perguntas = [
       "Via coletora"
     ],
     correta: 0,
+    imagem: ""
   },
   {
-    pergunta: "Segundo o Artigo 188 do CTB: Transitar ao lado de outro veículo, interrompendo ou perturbando o trânsito, é infração:",
+    pergunta: "Qual é a velocidade máxima permitida em vias urbanas, salvo sinalização contrária?",
     respostas: [
-      "Leve",
-      "Média",
-      "Grave",
-      "Gravíssima"
+      "30 km/h",
+      "40 km/h",
+      "50 km/h",
+      "60 km/h"
     ],
-    correta: 2,
+    correta: 2
   },
-  {
-    pergunta: "A Placa de Sinalização de Obras ao lado indica:",
-    respostas: [
-      "Altura máxima para motocicletas",
-      "Altura máxima para automóveis",
-      "Altura limitada",
-      "Altura mínima permitida"
-    ],
-    correta: 2,
-  },
+
   {
     pergunta: "O efeito da bebida alcoólica no organismo humano:",
     respostas: [
@@ -37,7 +29,7 @@ const perguntas = [
       "Afeta negativamente o estado físico e mental no modo de dirigir.",
       "Aumenta a capacidade de dirigir, pois os condutores acham que seus reflexos ficam acelerados."
     ],
-    correta: 2,
+    correta: 2
   },
   {
     pergunta: "A obrigatoriedade do uso do cinto de segurança para condutores e passageiros é porque evita:",
@@ -47,7 +39,7 @@ const perguntas = [
       "Colisão com veículos da frente.",
       "Colisão com veículos de trás."
     ],
-    correta: 1,
+    correta: 1
   },
   {
     pergunta: "Se ocorrer um acidente, o condutor ao solicitar o serviço de resgate para atender às vítimas, deve adotar o seguinte procedimento:",
@@ -57,7 +49,7 @@ const perguntas = [
       "Informar a localização do acidente e adiantar o atendimento, liberando as vias aéreas da vítima",
       "Informar o tipo de acidente e retirar imediatamente a vítima do local do acidente"
     ],
-    correta: 0,
+    correta: 0
   },
   {
     pergunta: "O cinto de segurança pode ser usado por:",
@@ -67,7 +59,7 @@ const perguntas = [
       "Somente uma pessoa.",
       "Motorista e passageiro junto ao mesmo cinto."
     ],
-    correta: 2,
+    correta: 2
   },
   {
     pergunta: "Conduzir o veículo, após a ingestão de bebida alcoólica, resulta em:",
@@ -77,7 +69,7 @@ const perguntas = [
       "Limitação da percepção de situação de perigo.",
       "Melhora a coordenação motora e deixa o condutor hábil"
     ],
-    correta: 2,
+    correta: 2
   },
   {
     pergunta: "As vias rurais classificam-se em:",
@@ -87,7 +79,7 @@ const perguntas = [
       "Rodovias e estradas.",
       "Rodovias, vicinais e vias de trânsito rápido."
     ],
-    correta: 1,
+    correta: 1
   },
   {
     pergunta: "O Código de Trânsito Brasileiro (CTB) estabelece regras e normas válidas em todo o território nacional para:",
@@ -97,109 +89,120 @@ const perguntas = [
       "Ruas, avenidas, rodovias e estradas",
       "Ruas, avenidas, logradouros, caminhos, passagens, rodovias e estradas"
     ],
-    correta: 1,
+    correta: 1
   },
   {
-    pergunta: "Transitar pela contramão de direção em vias com sinalização de regulamentação de sentido único de circulação é uma infração (CTB Art. 186, inciso II):",
+    pergunta: "Qual é a velocidade máxima permitida em rodovias para automóveis, caminhonetas e motocicletas, salvo sinalização em contrário?",
     respostas: [
-      "Leve",
-      "Média",
-      "Gravíssima",
-      "Grave"
+      "110 km/h",
+      "120 km/h",
+      "90 km/h",
+      "80 km/h"
     ],
-    correta: 2,
+    correta: 0
   },
   {
-    pergunta: "Os componentes essenciais do sistema de controle do aquecimento do motor, com sistema de arrefecimento à água, são:",
+    pergunta: "O que o condutor deve fazer ao perceber que outro veículo deseja ultrapassá-lo?",
     respostas: [
-      "Radiador, bomba-d'água e válvula termostática",
-      "Bomba-d'água, câmaras de resfriamento e bulbo indicador",
-      "Válvula termostática, reservatório e alternador",
-      "Termômetro, radiador, água com solução e embreagem"
+      "Acelerar o veículo para evitar a ultrapassagem.",
+      "Reduzir a velocidade e facilitar a ultrapassagem.",
+      "Manter a velocidade e a posição na via.",
+      "Desviar para o acostamento."
     ],
-    correta: 0,
+    correta: 1
   },
   {
-    pergunta: "As regras fundamentais de primeiros socorros são:",
+    pergunta: "Qual é a função do sistema de freios do veículo?",
     respostas: [
-      "Tranquilizar o acidentado; estimular a circulação do local fraturado por meio de massagem local; e atuar com rapidez",
-      "Afastar os curiosos; telefonar para o serviço de resgate; e movimentar a vítima",
-      "Aquecer o acidentado por meio da oferta de bebida quente; avaliar a situação; e conversar de forma calma com o acidentado",
-      "Sinalizar o local do acidente; acionar o serviço de emergência; e avaliar os riscos para o acidentado"
+      "Proporcionar tração nas rodas.",
+      "Reduzir a velocidade ou parar o veículo.",
+      "Amortecer os impactos das irregularidades do solo.",
+      "Aumentar a velocidade do veículo."
     ],
-    correta: 3,
+    correta: 1
   },
   {
-    pergunta: "Em um acidente de trânsito você deve:",
+    pergunta: "A sinalização de regulamentação tem por finalidade:",
     respostas: [
-      "Passar direto, reduzindo bem a velocidade.",
-      "Não ligar para o atendimento médico especializado, antes de tomar as primeiras providências.",
-      "Parar somente se já houver pessoas prestando socorro.",
-      "Parar em local seguro sinalizando esse acidente."
+      "Advertir os usuários da via sobre condições potencialmente perigosas.",
+      "Indicar aos usuários da via as normas que devem ser obedecidas.",
+      "Indicar os nomes das ruas e as direções a serem seguidas.",
+      "Orientar os condutores sobre a existência de escolas e hospitais."
     ],
-    correta: 3,
+    correta: 1
   },
   {
-    pergunta: "Qual é a primeira providência a ser tomada pelo condutor em caso de acidente de trânsito com vítimas?",
+    pergunta: "Qual é a principal função do sistema de suspensão de um veículo?",
     respostas: [
-      "Remover imediatamente os veículos da via para evitar congestionamento.",
-      "Prestar socorro às vítimas, acionando o serviço de emergência e sinalizando o local.",
-      "Registrar o acidente com fotos antes de prestar qualquer socorro.",
-      "Realizar um levantamento detalhado da causa do acidente antes de prestar socorro."
+      "Aumentar a estabilidade e o conforto ao absorver impactos.",
+      "Proporcionar tração nas rodas.",
+      "Reduzir a velocidade ou parar o veículo.",
+      "Aumentar a velocidade do veículo."
     ],
-    correta: 1,
-  },
-  
-  {
-    pergunta: "Os riscos e os perigos a que estão sujeitos os usuários no trânsito estão relacionados com: os veículos; os condutores; as vias; o ambiente; e...",
-    respostas: [
-      "O comportamento das pessoas.",
-      "Ao sistema de iluminação pública.",
-      "As ações governamentais.",
-      "A fiscalização dos agentes de trânsito."
-    ],
-    correta: 0,
+    correta: 0
   },
   {
-    pergunta: "Qual categoria de habilitação que habilita o condutor a dirigir veículo com combinação, cuja unidade tratora se enquadra nas categorias B, C ou D e cuja unidade acoplada, reboque, semi-reboque ou articulado, tenha 6.000 quilogramas ou mais de peso bruto total?",
+    pergunta: "Em caso de acidente com vítima, o que o condutor deve fazer primeiro?",
     respostas: [
-      "Categoria E",
-      "Categoria D",
-      "Categoria C",
-      "Categoria A"
+      "Remover o veículo da via imediatamente.",
+      "Sinalizar o local e aguardar o resgate.",
+      "Remover a vítima do local do acidente.",
+      "Prosseguir viagem após o acidente."
     ],
-    correta: 0,
+    correta: 1
   },
   {
-    pergunta: "Ofuscamento e chuva são respectivamente condições adversas de:",
+    pergunta: "Para virar à direita em uma via de mão dupla, o condutor deve:",
     respostas: [
-      "Trânsito e estrada.",
-      "Luz e trânsito.",
-      "Luz e tempo.",
-      "Tempo e trânsito."
+      "Sinalizar e posicionar-se o mais à direita possível.",
+      "Sinalizar e posicionar-se o mais à esquerda possível.",
+      "Sinalizar e posicionar-se no centro da via.",
+      "Não é necessário sinalizar."
     ],
-    correta: 2,
+    correta: 0
   },
   {
-    pergunta: "Ao trafegar em trecho de rodovia com neblina intensa o condutor deve:",
+    pergunta: "O uso de dispositivos de segurança para crianças (cadeirinhas) é obrigatório para crianças de até:",
     respostas: [
-      "Seguir bem de perto um veículo de grande porte, como um caminhão, para usar suas luzes traseiras como referência.",
-      "Acender o farol alto, para tornar o veículo mais visível e melhorar a visibilidade da pista à frente.",
-      "Reduzir a velocidade e manter uma distância segura do veículo à frente.",
-      "Aumentar a velocidade para atravessar a neblina rapidamente."
+      "3 anos.",
+      "5 anos.",
+      "7 anos e meio.",
+      "10 anos."
     ],
-    correta: 2,
+    correta: 2
   },
   {
-    pergunta: "Transitar em velocidade superior à máxima permitida para o local, medida por instrumento ou equipamento hábil, em até 20%, é uma infração:",
+    pergunta: "Ao avistar um semáforo com luz amarela intermitente, o condutor deve:",
     respostas: [
-      "Leve",
-      "Média",
-      "Grave",
-      "Gravíssima"
+      "Acelerar para atravessar o cruzamento rapidamente.",
+      "Parar o veículo imediatamente.",
+      "Reduzir a velocidade e seguir com atenção.",
+      "Desviar para outra via."
     ],
-    correta: 1,
-  }
+    correta: 2
+  },
+  {
+    pergunta: "Qual é a atitude correta ao se aproximar de um cruzamento não sinalizado?",
+    respostas: [
+      "Acelerar e atravessar rapidamente.",
+      "Parar o veículo e aguardar o sinal verde.",
+      "Reduzir a velocidade e dar preferência ao veículo da direita.",
+      "Desviar para evitar o cruzamento."
+    ],
+    correta: 2
+  },
+  // placas:
+  {
+    "pergunta": "A Placa de Sinalização ao lado indica que é proibido:",
+    "respostas": [
+      "Estacionar",
+      "Ultrapassar",
+      "Parar e estacionar",
+      "Transitar"
+    ],
+    "correta": 0,
+    "imagem": "https://images.tcdn.com.br/img/img_prod/861159/placa_de_transito_regulamentacao_r_6a_proibido_estacionar_2791714_1_5c2946df0c73495153e63285630f7397.jpg" // Proibido Estacionar
+  },
 ];
 
 
@@ -234,6 +237,15 @@ perguntas.forEach(item => {
 
     quizItem.querySelector("h3").textContent = item.pergunta;
 
+    // Adiciona a imagem, se disponível
+    if (item.imagem) {
+        const img = quizItem.querySelector(".placa-img");
+        img.src = item.imagem;
+        img.alt = "Imagem da placa de trânsito";
+    } else {
+        quizItem.querySelector(".placa-img").remove();
+    }
+
     item.respostas.forEach(resposta => {
         const dt = quizItem.querySelector("dl dt").cloneNode(true);
         const input = dt.querySelector("input");
@@ -246,12 +258,18 @@ perguntas.forEach(item => {
         input.onchange = (event) => {
             const estaCorreta = event.target.value == item.correta;
 
-            if (!estaCorreta) {
+            // Remover classes de todos os inputs e spans relacionados
+            const inputs = quizItem.querySelectorAll("input");
+            const spans = quizItem.querySelectorAll("span");
+            inputs.forEach(inp => inp.classList.remove("wrong", "correct"));
+            spans.forEach(sp => sp.classList.remove("wrong", "correct"));
+
+            if (estaCorreta) {
+                input.classList.add("correct");
+                span.classList.add("correct");
+            } else {
                 input.classList.add("wrong");
                 span.classList.add("wrong");
-            } else {
-                input.classList.remove("wrong");
-                span.classList.remove("wrong");
             }
 
             corretas.delete(item);
@@ -270,4 +288,3 @@ perguntas.forEach(item => {
 
     quiz.appendChild(quizItem);
 });
-
