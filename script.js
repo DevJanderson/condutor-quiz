@@ -203,6 +203,229 @@ const perguntas = [
     "correta": 0,
     "imagem": "https://images.tcdn.com.br/img/img_prod/861159/placa_de_transito_regulamentacao_r_6a_proibido_estacionar_2791714_1_5c2946df0c73495153e63285630f7397.jpg" // Proibido Estacionar
   },
+  {
+    "pergunta": "A Placa de Sinalização ao lado indica:",
+    "respostas": [
+      "Velocidade mínima",
+      "Limite de velocidade",
+      "Velocidade máxima permitida",
+      "Velocidade aconselhada"
+    ],
+    "correta": 2,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_683320-MLB68892140288_042023-O.webp" // Velocidade Máxima Permitida
+  },
+  {
+    "pergunta": "A Placa de Sinalização ao lado indica:",
+    "respostas": [
+      "Via preferencial",
+      "Via com mão dupla",
+      "Proibido ultrapassar",
+      "Pista sinuosa"
+    ],
+    "correta": 1,
+    "imagem": "https://www.seton.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/0/c0255.jpg" // Mão Dupla
+  },
+  {
+    "pergunta": "A Placa de Sinalização ao lado indica:",
+    "respostas": [
+      "Curva perigosa à direita",
+      "Interseção oblíqua",
+      "Rotatória",
+      "Cruzamento"
+    ],
+    "correta": 0,
+    "imagem": "https://meiocorte.pt/wp-content/uploads/2018/12/A1A-300x300.png" // Curva Perigosa à Direita
+  },
+  {
+    "pergunta": "A Placa de Sinalização ao lado indica:",
+    "respostas": [
+      "Travessia de pedestres",
+      "Passagem de escolares",
+      "Área de estacionamento",
+      "Área de cruzamento"
+    ],
+    "correta": 0,
+    "imagem": "https://w7.pngwing.com/pngs/285/730/png-transparent-pedestrian-crossing-traffic-sign-road-road-blue-angle-text.png" // Travessia de Pedestres
+  },
+  {
+    "pergunta": "A Placa de Sinalização ao lado indica:",
+    "respostas": [
+      "Rodovia",
+      "Avenida",
+      "Estrada de ferro",
+      "Passagem de nível sem barreira"
+    ],
+    "correta": 3,
+    "imagem": "https://isinaliza.vtexassets.com/arquivos/ids/238867-800-auto?v=637709598093100000&width=800&height=auto&aspect=true" // Passagem de nível sem barreira
+  },
+  {
+    "pergunta": "A Placa de Sinalização ao lado indica:",
+    "respostas": [
+      "Interseção com via lateral",
+      "Desvio à direita",
+      "Desvio à esquerda",
+      "Interseção em T"
+    ],
+    "correta": 3,
+    "imagem": "https://blog.usezapay.com.br/wp-content/uploads/2023/02/placa-a8.jpg" // Interseção em T
+  },
+  // Multas
+  {
+    "pergunta": "Qual é a classificação de uma infração por conduzir o veículo com a carga excedente ao permitido?",
+    "respostas": [
+      "Leve",
+      "Média",
+      "Grave",
+      "Gravíssima"
+    ],
+    "correta": 2,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "Qual é a penalidade para uma infração considerada 'Gravíssima' segundo o Código de Trânsito Brasileiro (CTB)?",
+    "respostas": [
+      "Multa e suspensão do direito de dirigir",
+      "Multa e apreensão do veículo",
+      "Multa e advertência",
+      "Multa e cursos de reciclagem"
+    ],
+    "correta": 0,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "Qual é a infração classificada como 'Grave' que pode ser cometida ao ultrapassar em local proibido?",
+    "respostas": [
+      "Ultrapassagem em faixa contínua",
+      "Ultrapassagem em local sinalizado",
+      "Ultrapassagem pela direita",
+      "Ultrapassagem em faixa de pedestres"
+    ],
+    "correta": 0,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "De acordo com o CTB, qual é a penalidade para dirigir sem habilitação?",
+    "respostas": [
+      "Multa e retenção do veículo",
+      "Multa e pontos na CNH",
+      "Multa e advertência",
+      "Multa e suspensão temporária"
+    ],
+    "correta": 0,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "Qual infração é considerada 'Leve' segundo a classificação de infrações do CTB?",
+    "respostas": [
+      "Estacionar em local permitido",
+      "Conduzir com a carteira de habilitação vencida",
+      "Estacionar em área de carga e descarga",
+      "Ultrapassar o limite de velocidade em até 10%"
+    ],
+    "correta": 3,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  // sinais sonoros
+  {
+    "pergunta": "O que significa um apito curto e um apito longo dados pelo guarda de trânsito?",
+    "respostas": [
+      "Pare",
+      "Siga",
+      "Reduza a velocidade",
+      "Acelere"
+    ],
+    "correta": 0,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "Qual é a indicação do guarda de trânsito quando ele dá dois apitos curtos?",
+    "respostas": [
+      "Pare",
+      "Siga",
+      "Acelere",
+      "Reduza a velocidade"
+    ],
+    "correta": 1,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "Um guarda de trânsito dá um apito longo. O que isso sinaliza?",
+    "respostas": [
+      "Siga",
+      "Pare",
+      "Reduza a velocidade",
+      "Acelere"
+    ],
+    "correta": 1,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "Como o guarda de trânsito sinaliza para reduzir a velocidade usando apitos?",
+    "respostas": [
+      "Um apito longo",
+      "Dois apitos curtos",
+      "Três apitos curtos",
+      "Um apito curto e um longo"
+    ],
+    "correta": 2,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "Qual é a sequência de apitos utilizada pelo guarda para sinalizar que o motorista deve acelerar?",
+    "respostas": [
+      "Dois apitos curtos",
+      "Um apito longo",
+      "Um apito curto e um longo",
+      "Três apitos curtos"
+    ],
+    "correta": 3,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  // geral
+  {
+    "pergunta": "Ao avistar um pedestre atravessando a via sobre a faixa de pedestres, o condutor deve:",
+    "respostas": [
+      "Acelerar para passar antes do pedestre",
+      "Reduzir a velocidade e parar se necessário",
+      "Buzinar para alertar o pedestre",
+      "Continuar a velocidade normal, pois tem a preferência"
+    ],
+    "correta": 1,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "Qual a conduta correta do motorista ao perceber que está sentindo sonolência enquanto dirige?",
+    "respostas": [
+      "Abrir as janelas e continuar dirigindo",
+      "Parar o veículo em um local seguro e descansar",
+      "Aumentar o volume do rádio para se manter acordado",
+      "Tomar uma bebida energética e continuar dirigindo"
+    ],
+    "correta": 1,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "Quando o semáforo está amarelo, o motorista deve:",
+    "respostas": [
+      "Acelerar para passar antes de ficar vermelho",
+      "Parar o veículo, se for seguro fazê-lo",
+      "Parar imediatamente, mesmo se estiver próximo ao cruzamento",
+      "Ignorar e seguir como se estivesse verde"
+    ],
+    "correta": 1,
+    "imagem": "" // Insira URL da imagem, se disponível
+  },
+  {
+    "pergunta": "Qual é a prioridade de passagem em uma rotatória?",
+    "respostas": [
+      "O veículo que está dentro da rotatória",
+      "O veículo que está entrando na rotatória",
+      "O veículo de maior porte",
+      "O veículo que estiver na faixa da direita"
+    ],
+    "correta": 0,
+    "imagem": "" // Insira URL da imagem, se disponível
+  }
 ];
 
 
